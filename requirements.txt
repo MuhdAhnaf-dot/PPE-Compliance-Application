@@ -5,5 +5,5 @@ ultralytics
 pillow
 torch
 torchvision
-opencv-python 
+opencv-python-headless 
 huggingface_hub
