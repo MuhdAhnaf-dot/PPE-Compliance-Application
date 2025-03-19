@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import json
+import logging
 from ultralytics import YOLO
 from PIL import Image
 
