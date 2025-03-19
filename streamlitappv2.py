@@ -87,7 +87,7 @@ def main():
 
     # Chatbot Section
     st.write("\n---")
-    st.write("## 🧑‍💼💬🤖Chat with the PPE Compliance Bot")
+    st.write("## 🤖Chat with the PPE Compliance Bot")
 
     # Initialize session state for chat history
     if "messages" not in st.session_state:
