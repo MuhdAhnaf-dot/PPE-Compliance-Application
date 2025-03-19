@@ -108,11 +108,6 @@ def main():
                 else:
                     st.success(f"✅ {item}")
         
-        if no_ppe_detected:
-            st.error("❌ No PPE detected! Please wear appropriate safety gear.")
-        elif not detected_ppe:
-            st.warning("⚠️ No PPE detected.")
-        
         response = send_to_langflow(detected_ppe)
         st.write("### Compliance Result:")
         st.info(response.get("outputs", [{}])[0].get("outputs", [{}])[0].get("results", {}).get("message", {}).get("text", "No response"))
