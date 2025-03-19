@@ -60,7 +60,7 @@ def main():
     if image is not None:
         st.image(image, caption="Selected Image", use_container_width=True)
 
-        # Load YOLO model and run inference
+        # Load YOLO model 
         model = YOLO("Model/best.pt")
         results = model(image)
 
@@ -82,12 +82,12 @@ def main():
         st.write("### Compliance Result:")
         st.write(response.get("outputs", [{}])[0].get("outputs", [{}])[0].get("results", {}).get("message", {}).get("text", "No response"))
 
-        # Optional: Show detection result image
+        #Show detection result image
         st.image(results[0].plot(), caption="Detection Results")
 
     # Chatbot Section
     st.write("\n---")
-    st.write("## 💬 Chat with the PPE Compliance Bot")
+    st.write("## 🧑‍💼💬🤖Chat with the PPE Compliance Bot")
 
     # Initialize session state for chat history
     if "messages" not in st.session_state:

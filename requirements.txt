@@ -5,6 +5,5 @@ ultralytics
 pillow
 torch
 torchvision
-opencv-python-headless  # Replace opencv-python with this
-gdown
+opencv-python-headless  
 huggingface_hub
