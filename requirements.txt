@@ -1,9 +1,10 @@
 streamlit
+requests
+jsonschema  # Required for handling JSON properly
 ultralytics
-opencv-python
-numpy
-pandas
-torch
-torchvision
-gdown  # If using Google Drive
-huggingface_hub  # If using Hugging Face
+pillow  # For PIL (image processing)
+torch  # Required for YOLO model
+torchvision  # Required for YOLO model
+opencv-python  # If your app processes images with OpenCV
+gdown  # If downloading the model from Google Drive
+huggingface_hub  # If using Hugging Face to store the model
