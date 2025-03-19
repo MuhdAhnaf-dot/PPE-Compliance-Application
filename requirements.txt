@@ -1,0 +1,9 @@
+streamlit
+ultralytics
+opencv-python
+numpy
+pandas
+torch
+torchvision
+gdown  # If using Google Drive
+huggingface_hub  # If using Hugging Face
