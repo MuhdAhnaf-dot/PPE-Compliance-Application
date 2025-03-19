@@ -30,7 +30,7 @@ Deployment: Streamlit Cloud
 ⛑️ PPE Classes = ["hardhat", "Mask", "NO-Hardhat", "NO-Mask", "NO-Safety Vest","Person", "Safety Cone", "Safety Vest", "Machinery", "Vehicle"]
 
 Example of quick question:
-1. What is the meaninf of PPE?
+1. What is the meaning of PPE?
 2. What is the purpose using PPE?
 3. What can you detect from that image?
 
