@@ -7,7 +7,7 @@ from ultralytics import YOLO
 from PIL import Image
 
 # Langflow API Configuration
-BASE_API_URL = "http://127.0.0.1:7860"
+BASE_API_URL = "https://0f08-175-139-159-165.ngrok-free.app"
 FLOW_ID = "28d0067f-0cad-4e4b-b72c-88520ce3261f"
 ENDPOINT = ""  # Replace with your actual Flow ID
 
