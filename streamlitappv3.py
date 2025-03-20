@@ -70,8 +70,8 @@ def main():
         sample_questions = [
             "What is PPE compliance?",
             "Why is wearing a hardhat important?",
-            "What happens if PPE is missing?",
-            "How does the AI detect PPE?"
+            "What happens if PPE is missing?"
+            "What is the purpose wearing safety vest?"
         ]
         selected_question = st.selectbox("Choose a question", sample_questions)
         if st.button("Ask Bot"):
