@@ -62,7 +62,7 @@ def chat_with_bot(user_input):
 # Streamlit App
 def main():
     st.title("🦺 PPE Compliance Checker 👷‍♂️")
-    st.write("📸 Upload or capture an image to check PPE compliance.")
+    st.write("📸 Upload or capture an image to check PPE compliance.//(created by Muhd Ahnaf)")
     
     # Sidebar options
     with st.sidebar:
