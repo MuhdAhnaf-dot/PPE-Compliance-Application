@@ -70,7 +70,7 @@ def main():
         sample_questions = [
             "What is PPE compliance?",
             "Why is wearing a hardhat important?",
-            "What happens if PPE is missing?"
+            "What happens if PPE is missing?",
             "What is the purpose wearing safety vest?"
         ]
         selected_question = st.selectbox("Choose a question", sample_questions)
