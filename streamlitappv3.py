@@ -38,7 +38,7 @@ st.markdown(sidebar_style, unsafe_allow_html=True)
 st.markdown(main_bg_style, unsafe_allow_html=True)
 
 # Langflow API Configuration
-BASE_API_URL = "https://0f08-175-139-159-165.ngrok-free.app"
+BASE_API_URL = " https://bc0a-175-139-159-165.ngrok-free.app"
 FLOW_ID = "28d0067f-0cad-4e4b-b72c-88520ce3261f"
 
 # Function to send data to Langflow
